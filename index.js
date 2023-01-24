@@ -13,7 +13,7 @@ console.log(timestamp)
 
 // Replace the timestamp in the input box with the calculated timestamp
 // Get the input box's text
-let input = document.querySelector("#timezone");
+let input = document.querySelector("#output");
 let text = input.value;
 // Replace the timestamp with the calculated timestamp (regex matches anything between <t: and :t>)
 text = text.replace(/<t:.*:t>/, timestamp);
@@ -32,3 +32,12 @@ copy.addEventListener("click", () => {
 	  input.select();
 	  document.execCommand("copy");
 });
+
+// Set timezone span to the timezone offset
+if (timezone > 0) {
+	document.getElementById("timezone").innerHTML = timezone/-60 + "h"
+} else if (timezone < 0) {
+	document.getElementById("timezone").innerHTML = "+" + timezone/-60 + "h"
+} else {
+	document.getElementById("timezone").innerHTML = ""
+}

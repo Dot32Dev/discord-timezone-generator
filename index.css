@@ -83,3 +83,10 @@ main > div::before {
   background-color: #3ca45c;
   opacity: 0.5;
 }
+
+span {
+  color: #3ca45c;
+  background-color: #202225;
+  /*background-color: #3ca45c;*/
+  /*font-family: monospace;*/
+}
