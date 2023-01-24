@@ -12,14 +12,13 @@ p {
   color: #99aab5;
 }
 
-div:has(> input) {
+div:has(> textarea) {
   display: flex;
-  width: fit-content;
+  max-width: fit-content;
   margin: 0 auto;
 }
 
-input {
-  width: 100%;
+textarea {
   height: 100%;
   border: none;
   outline: none;
@@ -31,6 +30,8 @@ input {
   font-size: 16px;
   border-radius: 5px;
   margin: 0 5px;
+  /* resize false */
+  resize: none;
 }
 
 button {

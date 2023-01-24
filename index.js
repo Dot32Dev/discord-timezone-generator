@@ -23,7 +23,7 @@ input.value = text;
 // The reset button
 let reset = document.querySelector("#reset");
 reset.addEventListener("click", () => {
-	  input.value = `Midnight in my timezone is <t:${datum.getTime()/1000}:t>`;
+	  input.value = `Midnight in my timezone is <t:${datum.getTime()/1000}:t> in your timezone`;
 });
 
 // The copy button
