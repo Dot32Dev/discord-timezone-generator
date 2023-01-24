@@ -28,7 +28,7 @@ textarea {
   /* font-family: Helvetica; */
   padding: 10px;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 12px;
   margin: 0 5px;
   /* resize false */
   resize: none;
@@ -38,14 +38,30 @@ button {
   background-color: #7289da;
   color: #fff;
   font: inherit;
-  /* padding: 10px; */
+  padding: 10px;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 12px;
   border: none;
   outline: none;
   cursor: pointer;
   margin: 0 5px;
 }
+
+#copy {
+  background-color: #3ca45c;
+}
+
+#copy:hover {
+  background-color: #2e8a4c;
+}
+
+/* #reset {
+  background-color: #f04747;
+}
+
+#reset:hover {
+  background-color: #d43f3f;
+} */
 
 button:hover {
   background-color: #5f73bc;
@@ -89,4 +105,9 @@ span {
   background-color: #202225;
   /*background-color: #3ca45c;*/
   /*font-family: monospace;*/
+}
+
+img {
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
 }
