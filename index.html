@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Discord Timezone Generator</title>
+  <!-- <link rel="shortcut icon" type="image/jpg" href="/favicon.png"/> -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌏</text></svg>">
+
+  <meta name="description" content="Display your timezone in your Discord about me"/>
+  <link rel="stylesheet" href="index.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<meta property="og:title" content="Add your timezone to your Discord bio" />
+	<meta property="og:type" content="Add your timezone to your Discord bio" />
+	<meta property="og:url" content="https://discordtimezonegenerator.netlify.app/" />
+	<meta property="og:image" content="https://discordtimezonegenerator.netlify.app/example.png" />
+	<meta property="og:description" content="Generate and display your timezone on your Discord profile" />
+	<meta name="author" content="Dot32">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<!-- Global site tag (gtag.js) - Google Analytics  //TODO-->
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZX004NRR7"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-XZX004NRR7');
+	</script> -->
+
+</head>
+<body>
+	<main>
+		<div>
+			<!-- HTML starts here -->
+			<!-- <div id="copy-banner" class="copy-banner">Copied to clipboard</div> -->
+			<h1>Discord Timezone Generator</h1>
+
+			<p>Show your relative timezone in your Discord About Me!</p>
+			<img src="example.png" height=81 alt="Your birthday is in [14 days]">
+			<p>Other users will be able to see how many hours ahead or behind you are from them. </p>
+			<p class="pc">Just copy paste the code into your Bio.</p><!-- , or optionally modify the reference time.</p> -->
+			<!-- <hr> -->
+
+			<!-- <br/> -->
+
+			<div class="highlighted">
+				<!-- drop down for reference time -->
+				<!-- <select id="reference">
+					<option value="midnight">Midnight</option>
+					<option value="midday">Midday</option>
+				</select> -->
+				<!-- drop down for timezone -->
+				<!-- <select id="timezone">
+					<option value="0">UTC</option>
+					<option value="-1">UTC-1</option>
+					<option value="-2">UTC-2</option>
+					<option value="-3">UTC-3</option>
+				</select> -->
+				<div>
+					<input id="timezone" size="50" type="text" placeholder="Midnight in my timezone is <t:Loading:t>" value="Midnight in my timezone is <t:Loading:t>">
+					<button id="copy"><i class="material-icons">content_copy</i></span></button>
+					<button id="reset"><i class="material-icons">autorenew</i></span></button>
+				</div>
+			</div>
+
+			<!-- <div class=highlighted>
+				<h2>Want the 2023 New Years Countdown?</h2>
+				<p>Note it is adjusted for your timezone (UTC<span id="timezone">+8h</span>), and may not be accurate to others.</p>
+				<div>
+					<p id=special-new-years>&lt;t:1672531200:R&gt;</p>
+
+					<button id="copy" onclick="copy('special-new-years')"><i class="material-icons">content_copy</i></span></button>
+				</div>
+			</div> -->
+
+			<!-- <p>Curious how this works? <a href="https://github.com/Dot32IsCool/discord-timestamp-generator">View the source code</a> (and possibly leave a star) <br> Generator created by <a href="https://github.com/Dot32IsCool">Dot32</a>.</p> -->
+			<!-- <p>Generator created by <span>Dot32#1186</span>, and is open source on Github under the MIT licence</p>
+			<a href="https://discord.gg/Pswb8khdgQ"><p>Join my Discord server</p> <p class="data members">Loading</p></a>
+			<a href="https://github.com/Dot32IsCool/discord-timestamp-generator"><p>Star this project on Github</p><p class="data stars">Loading</p></a>
+			<br>
+			<a href="https://discord.com/api/oauth2/authorize?client_id=1040831863381557321&permissions=277025392640&scope=bot%20applications.commands"><p>Get the Discord bot!</p><p class="data">30+ Servers</p></a> -->
+			
+			<script type="text/javascript" src="index.js"></script>
+		</div>
+	</main>
+</body>
+</html>

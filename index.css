@@ -1,0 +1,81 @@
+body {
+  font-family: 'Sen', Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* overflow-x: hidden; */
+  margin:0px;
+  background-color: #222326;
+  /* color: #99aab5; */
+  color: white;
+}
+
+p {
+  color: #99aab5;
+}
+
+div:has(> input) {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  /* outline: none; */
+  background-color: #202225;
+  color: #dcddde;
+  font: inherit;
+  /* font-family: Helvetica; */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+button {
+  background-color: #7289da;
+  color: #fff;
+  font: inherit;
+  /* padding: 10px; */
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: #5f73bc;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #2c2f33;
+  border: 1px solid #99aab5;
+  border-radius: 5px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 99vh;
+  max-width: 800px;
+  margin: 0 auto;
+  /* padding: 20px; */
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+main > div::before {
+  content: "how are you seeing this";
+  position: absolute;
+  top: 50%;
+  width: 100vw;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  background-color: #3ca45c;
+  opacity: 0.5;
+}
