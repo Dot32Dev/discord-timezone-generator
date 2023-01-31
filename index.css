@@ -118,3 +118,29 @@ img {
   border-radius: 12px;
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
 }
+
+a {
+  /*color: deepskyblue;*/
+  display: inline-block;
+  background-color: hsl(225deg 6% 27%);
+  /* color: white; */
+  color: #99aab5;
+ padding: 0.7em;
+  margin: 0.2em;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+  max-width: fit-content;
+  transition: scale 0.1s;
+  overflow: hidden;;
+/*  display:flex;*/
+}
+
+a:hover {
+  color: deepskyblue;
+}
+
+hr {
+  border: 1px dashed #99aab5;
+  margin: 20px 0;
+}
