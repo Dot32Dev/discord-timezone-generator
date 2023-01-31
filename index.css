@@ -32,6 +32,10 @@ textarea {
   margin: 0 5px;
   /* resize false */
   resize: none;
+
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 0;
 }
 
 button {
@@ -49,6 +53,9 @@ button {
 
 #copy {
   background-color: #3ca45c;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 0;
 }
 
 #copy:hover {
