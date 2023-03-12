@@ -149,3 +149,10 @@ hr {
   border: 1px dashed #99aab5;
   margin: 20px 0;
 }
+
+/* media query to hide pc class on small displays */
+@media only screen and (max-width: 600px) {
+  .pc {
+    display: none;
+  }
+}
