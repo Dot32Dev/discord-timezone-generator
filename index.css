@@ -105,7 +105,9 @@ main > div::before {
   height: 100px;
   transform: translate(-50%, -50%);
   z-index: -1;
-  background-color: #3ca45c;
+  /* background-color: #3ca45c; */
+  /* background-color: #7289da; */
+  background-color: #2c2f33;
   opacity: 0.5;
 }
 
@@ -154,5 +156,9 @@ hr {
 @media only screen and (max-width: 600px) {
   .pc {
     display: none;
+  }
+
+  img {
+    border-radius: 0;
   }
 }
