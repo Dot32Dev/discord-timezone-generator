@@ -3,7 +3,8 @@ body {
   text-align: center;
   /* overflow-x: hidden; */
   margin:0px;
-  background-color: #222326;
+  /* background-color: #222326; */
+  background-color: #18191c;
   /* color: #99aab5; */
   color: white;
   box-sizing: border-box;
@@ -90,6 +91,7 @@ main > div {
   margin: 0 auto;
   width: 100%;
   background-color: #2c2f33;
+  /* background-color: #202225; */
   /* border: 1px solid #99aab5; */
   border-radius: 12px;
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
@@ -106,9 +108,10 @@ main > div::before {
   transform: translate(-50%, -50%);
   z-index: -1;
   /* background-color: #3ca45c; */
-  /* background-color: #7289da; */
-  background-color: #2c2f33;
-  opacity: 0.5;
+  background-color: #7289da;
+  /* background-color: #2c2f33; */
+  /* opacity: 0.5; */
+  opacity: 0.1;
 }
 
 span {
